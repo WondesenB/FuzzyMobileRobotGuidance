@@ -4,10 +4,11 @@
   - mex Dis_Dir.c
   - mex fuzzy_ctrl.c
 
-  ---- load data and open model ----
+# To load data and open the SIMULINK model, run the matlab script " loadDataAndOpenModel.m" or use the following commands
   - load('Obs.mat')
   - load('path.mat')
-  - open('FuzzyMobileRobotGuidance')
+  - open('FuzzyMobileRobotGuidance.mdl')
+# To run 
   - Go to subblock 'Robot' and double click the 'Robot' 3D animation block
   - Run the simulation
 
