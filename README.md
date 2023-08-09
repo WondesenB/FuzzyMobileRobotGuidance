@@ -17,22 +17,22 @@
   - During the simuation the target location and obstacle condition can be varied using the given GUI application
 
 # System Block Diagram
-[!screenshoot](misc/Bdgm.png)
+![image](misc/Bdgm.png)
 
 # Fuzzy implementation hints
 
 ## Block diagram
-[!screenshoot](misc/fuzzysystem.png)
+![image](misc/fuzzysystem.png)
 
 ## Fuzzification
-[!screenshoot](misc/fuzzification.png)
+![image](misc/fuzzification.png)
 
 ## Rule base
-[!screenshoot](misc/rulebase.jpg)
+![image](misc/rulebase.jpg)
 
 ## Inference
-[!screenshoot](misc/inference.png)
+![image](misc/inference.png)
 
 ## Defuzzification
-[!screenshoot](misc/defuzzification.jpg)
+![image](misc/defuzzification.jpg)
 
