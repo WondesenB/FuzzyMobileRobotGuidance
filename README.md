@@ -36,3 +36,5 @@
 ## Defuzzification
 ![image](misc/defuzzification.jpg)
 
+# Simulation Test Result
+![video](misc/simulation.mp4)
