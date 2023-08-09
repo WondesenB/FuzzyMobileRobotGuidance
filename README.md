@@ -37,4 +37,4 @@
 ![image](misc/defuzzification.jpg)
 
 # Simulation Test Result
-![video](misc/simulation.mp4)
+[![video](misc/thumnail.png)](https://youtu.be/69Ffs5SMVuA)
