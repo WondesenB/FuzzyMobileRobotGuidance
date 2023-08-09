@@ -52,8 +52,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2013-10-12T09:59:29Z</dcterms:created>
   <dc:creator>WB</dc:creator>
   <cp:lastModifiedBy>wb</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2015-02-11T03:53:41Z</dcterms:modified>
-  <cp:revision>16.3</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-08-09T05:49:39Z</dcterms:modified>
+  <cp:revision>16.5</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -142,7 +142,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:16.3&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:16.5&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">none</P>
@@ -1257,8 +1257,8 @@ Configuration</P>
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="baabc4af-5e95-4864-b044-58715d2fee7c">
-    <Interface type="Interface" uuid="397e8ce3-650f-4d56-be3f-34c39b819a28"/>
+  <System type="System" uuid="45b3e307-6c2f-469a-85b3-d61cba283d57">
+    <Interface type="Interface" uuid="772a4395-145e-42cd-9a32-db0276e8ac3e"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1872,8 +1872,6 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_51.xml
   <P Name="viewLimits">[0 156.75 0 153.75]</P>
   <P Name="screen">[1 1 1280 1024 1.041050272174191]</P>
   <P Name="viewObj">51</P>
-  <P Name="visible">1</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">7</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -2644,8 +2642,6 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_93.xml
   <P Name="viewLimits">[0 156.75 0 153.75]</P>
   <P Name="screen">[1 1 1280 1024 1.041050272174191]</P>
   <P Name="viewObj">93</P>
-  <P Name="visible">1</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">7</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -3731,7 +3727,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_194.xml
 <System>
   <P Name="Location">[408, 75, 1790, 819]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">80</P>
+  <P Name="ZoomFactor">50</P>
   <Block BlockType="Inport" Name="Speed controller input" SID="196">
     <P Name="Position">[40, 488, 70, 502]</P>
     <P Name="ZOrder">-1</P>
@@ -4066,7 +4062,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_194.xml
       <P Name="AutoView">off</P>
       <P Name="VideoDimensions">[]</P>
       <P Name="AllowVariableSize">off</P>
-      <P Name="FigureProperties">{&apos;Position&apos;, &apos;Name&apos;, &apos;Viewpoint&apos;, &apos;CameraBound&apos;, &apos;CameraDirection&apos;, &apos;CameraPosition&apos;, &apos;CameraUpVector&apos;, &apos;ZoomFactor&apos;, &apos;Antialiasing&apos;, &apos;Headlight&apos;, &apos;Lighting&apos;, &apos;NavPanel&apos;, &apos;Sound&apos;, &apos;StatusBar&apos;, &apos;Stereo3D&apos;, &apos;Stereo3DCameraOffset&apos;, &apos;Stereo3DHIT&apos;, &apos;ToolBar&apos;, &apos;Textures&apos;, &apos;Transparency&apos;, &apos;Triad&apos;, &apos;Wireframe&apos;, &apos;NavZones&apos;, &apos;NavMode&apos;, &apos;NavSpeed&apos;, &apos;CaptureFileFormat&apos;, &apos;CaptureFileName&apos;, &apos;Record2DCompressMethod&apos;, &apos;Record2DCompressQuality&apos;, &apos;Record2D&apos;, &apos;Record2DFileName&apos;, &apos;Record2DFPS&apos;; [5.0000000000000000e+00   1.1800000000000000e+02   5.7600000000000000e+02   3.5000000000000000e+02], &apos;&apos;, &apos;_untitled_1&apos;, &apos;on&apos;, [0.0000000000000000e+00   0.0000000000000000e+00  -1.0000000000000000e+00], [0.0000000000000000e+00   0.0000000000000000e+00   0.0000000000000000e+00], [0.0000000000000000e+00   1.0000000000000000e+00   0.0000000000000000e+00], [1.0000000000000000e+00], &apos;on&apos;, &apos;on&apos;, &apos;on&apos;, &apos;halfbar&apos;, &apos;on&apos;, &apos;on&apos;, &apos;off&apos;, [1.0000000149011612e-01], [0.0000000000000000e+00], &apos;on&apos;, &apos;on&apos;, &apos;on&apos;, &apos;none&apos;, &apos;off&apos;, &apos;off&apos;, &apos;fly&apos;, &apos;normal&apos;, &apos;tif&apos;, &apos;%f_anim_%n.tif&apos;, &apos;auto&apos;, [7.5000000000000000e+01], &apos;off&apos;, &apos;%f_anim_%n.avi&apos;, &apos;auto&apos;} </P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="VR Source" SID="274">
@@ -6805,7 +6800,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="FileSettingsInternal">{&quot;entries&quot;:[{&quot;content&quot;:{&quot;excelSettings&quot;:{&quot;content&quot;:{},&quot;type&quot;:&quot;Streamout.ExcelSettings&quot;}},&quot;type&quot;:&quot;Streamout.FileSettingStorage&quot;,&quot;uuid&quot;:&quot;&quot;}],&quot;packageUris&quot;:[&quot;http:\/\/schema.mathworks.com\/mf0\/streamout_blocks\/R2020a&quot;],&quot;version&quot;:&quot;1.0&quot;}</P>
     <P Name="FrameSettings" Ref="bdmxdata:FrameSettings_295"/>
     <P Name="Layout">[1 1]</P>
-    <P Name="SignalsInternal">{&quot;entries&quot;:[{&quot;content&quot;:{&quot;signals&quot;:[{&quot;content&quot;:{&quot;blockPath&quot;:[],&quot;dimensions&quot;:[1],&quot;domain&quot;:&quot;&quot;,&quot;lineColor&quot;:&quot;#a2142f&quot;,&quot;plots&quot;:[1],&quot;port&quot;:1,&quot;sid&quot;:[&quot;&quot;],&quot;signalID&quot;:1772,&quot;signalName&quot;:&quot;Latitude&quot;},&quot;type&quot;:&quot;RecordBlkView.Signal&quot;,&quot;uuid&quot;:&quot;&quot;},{&quot;content&quot;:{&quot;blockPath&quot;:[],&quot;dimensions&quot;:[1],&quot;domain&quot;:&quot;&quot;,&quot;lineColor&quot;:&quot;#139fff&quot;,&quot;plots&quot;:[1],&quot;port&quot;:2,&quot;sid&quot;:[&quot;&quot;],&quot;signalID&quot;:1776,&quot;signalName&quot;:&quot;Gain&quot;},&quot;type&quot;:&quot;RecordBlkView.Signal&quot;,&quot;uuid&quot;:&quot;&quot;}]},&quot;type&quot;:&quot;RecordBlkView.InputSignals&quot;,&quot;uuid&quot;:&quot;&quot;}],&quot;packageUris&quot;:[&quot;http:\/\/schema.mathworks.com\/mf0\/streamout_blocks\/R2020a&quot;],&quot;version&quot;:&quot;1.0&quot;}</P>
+    <P Name="SignalsInternal">{&quot;entries&quot;:[{&quot;content&quot;:{&quot;signals&quot;:[{&quot;content&quot;:{&quot;blockPath&quot;:[],&quot;dimensions&quot;:[1],&quot;domain&quot;:&quot;&quot;,&quot;lineColor&quot;:&quot;#a2142f&quot;,&quot;plots&quot;:[1],&quot;port&quot;:1,&quot;sid&quot;:[&quot;&quot;],&quot;signalID&quot;:34161,&quot;signalName&quot;:&quot;Latitude&quot;},&quot;type&quot;:&quot;RecordBlkView.Signal&quot;,&quot;uuid&quot;:&quot;&quot;},{&quot;content&quot;:{&quot;blockPath&quot;:[],&quot;dimensions&quot;:[1],&quot;domain&quot;:&quot;&quot;,&quot;lineColor&quot;:&quot;#139fff&quot;,&quot;plots&quot;:[1],&quot;port&quot;:2,&quot;sid&quot;:[&quot;&quot;],&quot;signalID&quot;:34165,&quot;signalName&quot;:&quot;Gain&quot;},&quot;type&quot;:&quot;RecordBlkView.Signal&quot;,&quot;uuid&quot;:&quot;&quot;}]},&quot;type&quot;:&quot;RecordBlkView.InputSignals&quot;,&quot;uuid&quot;:&quot;&quot;}],&quot;packageUris&quot;:[&quot;http:\/\/schema.mathworks.com\/mf0\/streamout_blocks\/R2020a&quot;],&quot;version&quot;:&quot;1.0&quot;}</P>
     <Object PropName="PlotPreferences" ObjectID="1" ClassName="Simulink.record.internal.PlotPreferences">
       <Object PropName="Time" ObjectID="2" ClassName="Simulink.record.internal.TimePlotPreferences">
         <P Name="TicksColor" Class="double">[0.0, 0.0, 0.0]</P>
@@ -6850,7 +6845,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </Object>
     </Object>
     <P Name="CanvasColor" Ref="bdmxdata:CanvasColor_295"/>
-    <P Name="VisualizationBindings">{&quot;xyplotplugin&quot;:{&quot;info&quot;:[{&quot;series&quot;:[{&quot;bindingParametersList&quot;:[{&quot;parameter&quot;:&quot;X-Axis&quot;,&quot;signalID&quot;:1772,&quot;signalName&quot;:&quot;Latitude&quot;},{&quot;parameter&quot;:&quot;Y-Axis&quot;,&quot;signalID&quot;:1776,&quot;signalName&quot;:&quot;Gain&quot;}],&quot;seriesID&quot;:22846}],&quot;subplotID&quot;:1}]}}</P>
+    <P Name="VisualizationBindings">{&quot;xyplotplugin&quot;:{&quot;info&quot;:[{&quot;series&quot;:[{&quot;bindingParametersList&quot;:[{&quot;parameter&quot;:&quot;X-Axis&quot;,&quot;signalID&quot;:34161,&quot;signalName&quot;:&quot;Latitude&quot;},{&quot;parameter&quot;:&quot;Y-Axis&quot;,&quot;signalID&quot;:34165,&quot;signalName&quot;:&quot;Gain&quot;}],&quot;seriesID&quot;:15077}],&quot;subplotID&quot;:1}]}}</P>
     <P Name="CompatibilityTag">XY</P>
     <P Name="st">-1</P>
   </Block>
@@ -6962,7 +6957,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     </PortProperties>
     <System Ref="system_199"/>
   </Block>
-  <Block BlockType="Constant" Name="Target Location" SID="119">
+  <Block BlockType="Constant" Name="TargetLocation" SID="119">
     <P Name="Tag">Target</P>
     <P Name="Position">[80, 306, 220, 354]</P>
     <P Name="ZOrder">-10</P>
@@ -7298,14 +7293,14 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Object>
       <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*9">
         <Object ObjectID="5">
-          <P Name="IsActive" Class="logical">1</P>
+          <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">194</P>
           <P Name="Extents" Class="double">[1344.0, 503.0]</P>
-          <P Name="ZoomFactor" Class="double">0.8</P>
-          <P Name="Offset" Class="double">[-158.47516049619787, 432.77049660257387]</P>
-          <P Name="SceneRectInView" Class="double">[-158.47516049619787, 432.77049660257387, 1680.0, 628.75]</P>
+          <P Name="ZoomFactor" Class="double">0.5</P>
+          <P Name="Offset" Class="double">[-326.89182716286427, 159.52049660257353]</P>
+          <P Name="SceneRectInView" Class="double">[-326.89182716286427, 159.52049660257353, 2688.0, 1006.0]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
@@ -7358,7 +7353,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="SceneRectInView" Class="double">[0.0, 0.0, 993.6, 479.2]</P>
         </Object>
         <Object ObjectID="11">
-          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
@@ -7390,6 +7385,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="14">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="15">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -7398,18 +7405,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
 </P>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="15">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
           <P Name="Width" Class="int32">640</P>
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
